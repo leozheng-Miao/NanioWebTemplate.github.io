@@ -1,0 +1,189 @@
+﻿body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.head {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .head .left {
+        width: auto;
+        margin-left: 40px;
+        padding-left: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        float: left;
+    }
+
+    .head .middle {
+        width: auto;
+        float: left;
+    }
+
+    .head .right {
+        margin-left:30px;
+        width: auto;
+        float: left;
+        overflow: hidden;
+    }
+
+    .head .middle ul {
+        width: auto;
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .head .middle li {
+        padding-top: 10px;
+        margin-left: 40px;
+        float: left;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 300;
+        color: white;
+    }
+
+    .head a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .head .right ul {
+        width: auto;
+        list-style: none;
+        margin-left: 180px;
+    }
+
+    .head .right li {
+        padding-top: 10px;
+        float: left;
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 300;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    
+
+    .head .search {
+        float: left;
+        margin-left: 1%;
+        padding-top: 1%;
+    }
+
+    ul.parent li a:hover {
+        color: #a1c18c;
+    }
+
+.title .button {
+    margin-top: 30px;
+    margin-left: 130px;
+    padding-top: 5px;
+    background-color: #B3C8B5;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.title .title2 {
+    margin-left: 120px;
+    margin-top: 15px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: white;
+}
+
+.title .essay {
+    width: 460px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 130px;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.under {
+    width: 140px;
+    height: 135px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+    .under img {
+        width: 140px;
+        height: 135px;
+        bottom: 0;
+    }
+
+.rightp {
+    margin-top: 42px;
+    margin-left: 30px;
+    width: 120px;
+    height: 135px;
+    float: right;
+    bottom: 0;
+}
+
+    .rightp img {
+        padding-left: 8px;
+        width: 120px;
+        height: 135px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .rightp a {
+        height: 135px;
+        position: absolute;
+    }
+    .under a {
+        height: 135px;
+        position: absolute;
+    }
+.small_pic {
+    width: 1900px;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    left: 100px;
+    overflow: hidden;
+}
+
+    .small_pic ul {
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .small_pic li {
+        width: 320px;
+        height: 150px;
+        float: left;
+        background: url(loading.gif) no-repeat center center;
+        cursor: pointer;
+        filter: alpha(opacity=70);
+        opacity: 0.7;
+    }
+    .small_pic li:hover{
+        opacity:1;
+    }
+    .small_pic img {
+        width: 320px;
+        height: 150px;
+    }

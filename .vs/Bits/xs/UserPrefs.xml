@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{13E9676A-C5D0-4028-8DD8-5472ECC416BB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bits/Login.aspx">
+    <Files>
+      <File FileName="Bits/Login.aspx" Line="12" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bits" expanded="True">
+            <Node name="Bits" expanded="True">
+              <Node name="Login.aspx" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Bits PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

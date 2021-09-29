@@ -1,0 +1,218 @@
+﻿body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.head {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .head .left {
+        width: auto;
+        margin-left: 40px;
+        padding-left: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        float: left;
+    }
+
+    .head .middle {
+        width: auto;
+        float: left;
+    }
+
+    .head .right {
+        width: auto;
+        float: left;
+        overflow: hidden;
+    }
+
+    .head .middle ul {
+        width: auto;
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .head .middle li {
+        padding-top: 10px;
+        margin-left: 40px;
+        float: left;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 300;
+        color: white;
+    }
+
+    .head a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .head .right ul {
+        width: auto;
+        list-style: none;
+        margin-left: 180px;
+    }
+
+    .head .right li {
+        padding-top: 10px;
+        float: left;
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 300;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .head .search {
+        float: left;
+        margin-left: 1%;
+        padding-top: 1%;
+    }
+.box input.txtNum, .box input.txtPwd {
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid #3498db;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: white;
+} 
+
+.log {
+    margin: 5% auto;
+    background-color: rgba(255,255,255,0.1);
+    width: 473px;
+    height: 553px;
+    position: relative;
+    clear: both;
+    border-radius: 5px;
+}
+
+    .log .font {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        font-weight: 300;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .log .font2 {
+        height: 20px;
+        float: left;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+ul.parent li a:hover {
+    color: #a1c181;
+}
+
+ul.parent li a {
+    display: block;
+    font-size: 0.92em;
+    font-weight: 600;
+}
+
+.log .input {
+    margin-top: 30px;
+    margin-left: 55px;
+    border-radius: 4px;
+    overflow: hidden;
+    clear: both;
+}
+
+.log .email {
+    position: relative;
+    float: left;
+}
+
+.log .font3 {
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 90px;
+    color: white;
+}
+
+.log .input ul {
+    width: auto;
+    list-style: none;
+}
+
+.log .input li {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.log .input input {
+    border-radius: 5px;
+    height: 40px;
+    width: 280px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px white solid;
+}
+
+.log .font4 {
+    float: right;
+    margin-right: 95px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+    .log .font4 a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.log .login {
+    margin-top: 30px;
+    margin-left: 95px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+    height: 40px;
+    width: 280px;
+    border: 2px solid #CCC;
+    color: white;
+}
+.box input.btnLogin {
+    margin-top: 30px;
+    margin-left: 95px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: none;
+    display: block;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+}
+    .log .login a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
